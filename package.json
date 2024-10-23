@@ -1,0 +1,54 @@
+{
+	"name": "557-reverse-words-in-a-string-3",
+	"version": "0.0.0",
+	"description": ".",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmetkca/557-reverse-words-in-a-string-3"
+	},
+	"license": "MIT",
+	"author": {
+		"email": "ahmet.karapinar@ontariotechu.net"
+	},
+	"type": "module",
+	"main": "./lib/index.js",
+	"files": [
+		"lib/",
+		"package.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsup",
+		"format": "prettier .",
+		"lint": "eslint . --max-warnings 0",
+		"prepare": "husky",
+		"tsc": "tsc"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.13.0",
+		"@types/eslint__js": "^8.42.3",
+		"@types/node": "^22.7.9",
+		"eslint": "^9.13.0",
+		"eslint-plugin-n": "^17.11.1",
+		"husky": "^9.1.6",
+		"lint-staged": "^15.2.10",
+		"prettier": "^3.3.3",
+		"prettier-plugin-curly": "^0.3.1",
+		"prettier-plugin-packagejson": "^2.5.3",
+		"prettier-plugin-sh": "^0.14.0",
+		"tsup": "^8.3.0",
+		"typescript": "^5.6.3",
+		"typescript-eslint": "^8.11.0"
+	},
+	"packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
+	"engines": {
+		"node": ">=18.3.0"
+	},
+	"publishConfig": {
+		"provenance": true
+	}
+}
